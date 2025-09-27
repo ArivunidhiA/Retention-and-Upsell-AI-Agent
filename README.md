@@ -2,6 +2,24 @@
 
 A comprehensive AI-powered customer retention and upsell agent built with **LangChain**, **OpenAI GPT-4**, and **React**. This system reduces churn risk by 35% and boosts upsell conversions by 20% through intelligent conversation management and personalized offers.
 
+## 📸 Screenshots
+
+### Welcome Screen
+![Welcome Screen](Screenshot%202025-09-26%20at%209.08.58%20PM.png)
+*Welcome interface with quick action buttons and guided conversation flow*
+
+### Chat Interface with Quick Replies
+![Chat Interface](Screenshot%202025-09-26%20at%209.09.06%20PM.png)
+*Interactive chat with AI agent, quick reply options, and upgrade recommendations*
+
+### Plan Comparison Interface
+![Plan Comparison](Screenshot%202025-09-26%20at%209.09.13%20PM.png)
+*Visual plan comparison showing current vs suggested features with upgrade path*
+
+### Special Offer Popup
+![Special Offer](Screenshot%202025-09-26%20at%209.09.20%20PM.png)
+*Retention offer popup with discount details and accept/decline options*
+
 ## ✨ Features
 
 ### 🤖 AI Capabilities
