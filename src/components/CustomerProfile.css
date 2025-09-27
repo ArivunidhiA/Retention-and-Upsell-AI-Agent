@@ -1,0 +1,270 @@
+.customer-profile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  border-left: 1px solid rgba(255, 140, 0, 0.3);
+  backdrop-filter: blur(20px);
+  z-index: 1000;
+  overflow-y: auto;
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 140, 0, 0.2);
+  background: rgba(255, 140, 0, 0.05);
+}
+
+.profile-header h3 {
+  color: #ff8c00;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  background: rgba(255, 140, 0, 0.2);
+  color: #ff8c00;
+}
+
+.profile-content {
+  padding: 20px;
+}
+
+.profile-section {
+  margin-bottom: 24px;
+}
+
+.profile-section h5 {
+  color: #ff8c00;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.profile-avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.avatar-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff8c00, #ffa500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(255, 140, 0, 0.3);
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h4 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.profile-info p {
+  color: #ccc;
+  font-size: 0.85rem;
+  margin: 2px 0;
+}
+
+.plan-info {
+  background: rgba(255, 140, 0, 0.1);
+  border: 1px solid rgba(255, 140, 0, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.plan-name {
+  color: #ff8c00;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.plan-price {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.metric-item {
+  background: rgba(255, 140, 0, 0.05);
+  border: 1px solid rgba(255, 140, 0, 0.1);
+  border-radius: 6px;
+  padding: 12px;
+  text-align: center;
+}
+
+.metric-label {
+  display: block;
+  color: #ccc;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.metric-value {
+  display: block;
+  color: #ff8c00;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.risk-indicators {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.risk-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.risk-item.high-risk {
+  background: rgba(255, 68, 68, 0.1);
+  border-color: rgba(255, 68, 68, 0.3);
+}
+
+.risk-item.medium-risk {
+  background: rgba(255, 193, 7, 0.1);
+  border-color: rgba(255, 193, 7, 0.3);
+}
+
+.risk-item.low-risk {
+  background: rgba(40, 167, 69, 0.1);
+  border-color: rgba(40, 167, 69, 0.3);
+}
+
+.risk-item.high-potential {
+  background: rgba(40, 167, 69, 0.1);
+  border-color: rgba(40, 167, 69, 0.3);
+}
+
+.risk-item.medium-potential {
+  background: rgba(255, 193, 7, 0.1);
+  border-color: rgba(255, 193, 7, 0.3);
+}
+
+.risk-item.low-potential {
+  background: rgba(108, 117, 125, 0.1);
+  border-color: rgba(108, 117, 125, 0.3);
+}
+
+.risk-label {
+  color: #ccc;
+  font-size: 0.85rem;
+}
+
+.risk-value {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.feature-tag {
+  background: rgba(255, 140, 0, 0.1);
+  color: #ff8c00;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255, 140, 0, 0.2);
+}
+
+.no-features {
+  color: #666;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.loading, .no-profile {
+  text-align: center;
+  color: #ccc;
+  font-size: 0.9rem;
+  padding: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .customer-profile {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+  }
+  
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-content {
+    padding: 16px;
+  }
+  
+  .profile-header {
+    padding: 16px;
+  }
+  
+  .avatar-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+}

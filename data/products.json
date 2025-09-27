@@ -1,0 +1,116 @@
+{
+  "plans": {
+    "basic": {
+      "name": "Basic Plan",
+      "price": 29,
+      "currency": "USD",
+      "billing": "monthly",
+      "features": [
+        "Email campaigns (up to 1,000 contacts)",
+        "Basic analytics dashboard",
+        "Email templates (10 templates)",
+        "Customer support (email only)",
+        "Basic automation (3 workflows)",
+        "Mobile app access"
+      ],
+      "limits": {
+        "contacts": 1000,
+        "emails_per_month": 10000,
+        "automation_workflows": 3,
+        "team_members": 1
+      },
+      "target_audience": "Small businesses, freelancers, startups"
+    },
+    "professional": {
+      "name": "Professional Plan",
+      "price": 79,
+      "currency": "USD",
+      "billing": "monthly",
+      "features": [
+        "Everything in Basic",
+        "Advanced analytics & reporting",
+        "Email campaigns (up to 10,000 contacts)",
+        "Premium email templates (50 templates)",
+        "Priority customer support",
+        "Advanced automation (unlimited workflows)",
+        "A/B testing",
+        "API access",
+        "Custom integrations",
+        "Team collaboration (up to 5 members)"
+      ],
+      "limits": {
+        "contacts": 10000,
+        "emails_per_month": 100000,
+        "automation_workflows": "unlimited",
+        "team_members": 5
+      },
+      "target_audience": "Growing businesses, marketing teams, agencies"
+    },
+    "premium": {
+      "name": "Premium Plan",
+      "price": 199,
+      "currency": "USD",
+      "billing": "monthly",
+      "features": [
+        "Everything in Professional",
+        "Email campaigns (unlimited contacts)",
+        "Advanced segmentation",
+        "Custom email templates (unlimited)",
+        "24/7 phone & chat support",
+        "Advanced automation with AI",
+        "Multi-channel campaigns (SMS, Push)",
+        "Advanced API access",
+        "White-label options",
+        "Custom integrations & webhooks",
+        "Team collaboration (unlimited members)",
+        "Advanced reporting & insights",
+        "Dedicated account manager"
+      ],
+      "limits": {
+        "contacts": "unlimited",
+        "emails_per_month": "unlimited",
+        "automation_workflows": "unlimited",
+        "team_members": "unlimited"
+      },
+      "target_audience": "Large enterprises, agencies, high-volume businesses"
+    }
+  },
+  "add_ons": {
+    "extra_contacts": {
+      "name": "Extra Contacts",
+      "price": 0.02,
+      "unit": "per contact per month",
+      "description": "Additional contacts beyond your plan limit"
+    },
+    "priority_support": {
+      "name": "Priority Support",
+      "price": 49,
+      "billing": "monthly",
+      "description": "24/7 phone support and faster response times"
+    },
+    "advanced_analytics": {
+      "name": "Advanced Analytics",
+      "price": 29,
+      "billing": "monthly",
+      "description": "Enhanced reporting, custom dashboards, and data export"
+    }
+  },
+  "discounts": {
+    "annual_billing": {
+      "percentage": 20,
+      "description": "20% off when paying annually"
+    },
+    "student": {
+      "percentage": 50,
+      "description": "50% off for students with valid ID"
+    },
+    "nonprofit": {
+      "percentage": 30,
+      "description": "30% off for registered nonprofits"
+    },
+    "loyalty": {
+      "percentage": 15,
+      "description": "15% off for customers with 12+ months subscription"
+    }
+  }
+}
