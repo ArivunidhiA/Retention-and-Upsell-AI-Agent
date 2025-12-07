@@ -55,19 +55,23 @@
 ### 📸 Screenshots
 
 #### Welcome Screen
-![Welcome Screen](Screenshot%202025-09-26%20at%209.08.58%20PM.png)
+![Welcome Screen](https://raw.githubusercontent.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/main/Screenshot%202025-09-26%20at%209.08.58%20PM.png)
+
 *Welcome interface with quick action buttons and guided conversation flow*
 
 #### Chat Interface with Quick Replies
-![Chat Interface](Screenshot%202025-09-26%20at%209.09.06%20PM.png)
+![Chat Interface](https://raw.githubusercontent.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/main/Screenshot%202025-09-26%20at%209.09.06%20PM.png)
+
 *Interactive chat with AI agent, quick reply options, and upgrade recommendations*
 
 #### Plan Comparison Interface
-![Plan Comparison](Screenshot%202025-09-26%20at%209.09.13%20PM.png)
+![Plan Comparison](https://raw.githubusercontent.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/main/Screenshot%202025-09-26%20at%209.09.13%20PM.png)
+
 *Visual plan comparison showing current vs suggested features with upgrade path*
 
 #### Special Offer Popup
-![Special Offer](Screenshot%202025-09-26%20at%209.09.20%20PM.png)
+![Special Offer](https://raw.githubusercontent.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/main/Screenshot%202025-09-26%20at%209.09.20%20PM.png)
+
 *Retention offer popup with discount details and accept/decline options*
 
 ---
