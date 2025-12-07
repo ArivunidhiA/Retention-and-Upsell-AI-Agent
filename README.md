@@ -35,12 +35,12 @@
 
 | Welcome Screen | Chat Interface |
 |:---:|:---:|
-| <img src="https://github.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/blob/main/Screenshot%202025-09-26%20at%209.08.58%E2%80%8BPM.png?raw=true" width="400"/> | <img src="https://github.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/blob/main/Screenshot%202025-09-26%20at%209.09.06%E2%80%8BPM.png?raw=true" width="400"/> |
+| <img src="./screenshot-welcome.png" width="400" alt="Welcome Screen"/> | <img src="./screenshot-chat.png" width="400" alt="Chat Interface"/> |
 | *Welcome interface with quick action buttons* | *Interactive chat with AI agent and quick replies* |
 
 | Plan Comparison | Special Offer |
 |:---:|:---:|
-| <img src="https://github.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/blob/main/Screenshot%202025-09-26%20at%209.09.13%E2%80%8BPM.png?raw=true" width="400"/> | <img src="https://github.com/ArivunidhiA/Retention-and-Upsell-AI-Agent/blob/main/Screenshot%202025-09-26%20at%209.09.20%E2%80%8BPM.png?raw=true" width="400"/> |
+| <img src="./screenshot-plan-comparison.png" width="400" alt="Plan Comparison"/> | <img src="./screenshot-special-offer.png" width="400" alt="Special Offer"/> |
 | *Visual plan comparison with upgrade path* | *Retention offer popup with discount details* |
 
 </div>
